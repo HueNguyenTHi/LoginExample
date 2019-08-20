@@ -1,5 +1,10 @@
-# angular-7-registration-login-example
+# Login-example
 
-Angular 7 User Registration and Login Example with Angular CLI
+Please run this command first:
+npm install
 
-Full tutorial with example available at http://jasonwatmore.com/post/2018/10/29/angular-7-user-registration-and-login-example-tutorial
+Then run below commands:
+- To test for France:
+npm run start:fr -- --port=4001
+- To test for German:
+npm run start:de -- --port=4002
