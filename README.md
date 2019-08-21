@@ -4,5 +4,5 @@
 npm install  
 ng serve
 
-- Please run below command to run test code and view code coverate too:
+- Please run below command to run test code and view code coverate too:  
  ng test --code-coverage
