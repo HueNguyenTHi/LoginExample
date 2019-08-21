@@ -1,6 +1,6 @@
 # Login-example
 
-- Please run these commands to build source code:
+- Please run these commands to build source code:  
 npm install  
 ng serve
 
