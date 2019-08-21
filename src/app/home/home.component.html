@@ -1,5 +1,12 @@
-﻿<h1 i18n="greeting|say hi@@Greeting">Hi {{currentUser.firstName}}!</h1>
-<h1 i18n="morning greeting|a greeting used in moring@@GreetingMorning">Have a good day</h1>
+﻿<!-- <h1 i18n="greeting|say hi@@Greeting">Hi {{currentUser.firstName}}!</h1> -->
+<!-- <h1 i18n="morning greeting|a greeting used in moring@@GreetingMorning">Have a good day</h1> -->
+
+<h1>{{'demo.greeting' | translate }} {{currentUser.firstName}}!</h1>
+<h1>{{'demo.greetingMorning' | translate }}</h1>
+<button (click)="useLanguage('en')">English</button>
+<button (click)="useLanguage('vi')">Vietnam</button>
+<button (click)="useLanguage('fr')">French</button>
+
 <p>You're logged in with Angular 8!!</p>
 <h3>All registered users:</h3>
 <ul>

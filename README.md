@@ -1,10 +1,8 @@
 # Login-example
 
-Please run this command first:
+- Please run these commands to build source code:
 npm install
+ng serve
 
-Then run below commands:
-- To test for France:
-npm run start:fr -- --port=4001
-- To test for German:
-npm run start:de -- --port=4002
+- Please run below command to run test code and view code coverate too:
+ ng test --code-coverage
